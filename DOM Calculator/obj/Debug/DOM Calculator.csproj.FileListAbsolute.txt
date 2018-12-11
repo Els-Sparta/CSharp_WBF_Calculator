@@ -1,0 +1,15 @@
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\DOM Calculator.csprojAssemblyReference.cache
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\MainWindow.g.cs
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\App.g.cs
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\DOM Calculator_MarkupCompile.cache
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\DOM Calculator_MarkupCompile.lref
+C:\Homework\DOM Calculator\DOM Calculator\bin\Debug\DOM Calculator.exe.config
+C:\Homework\DOM Calculator\DOM Calculator\bin\Debug\DOM Calculator.exe
+C:\Homework\DOM Calculator\DOM Calculator\bin\Debug\DOM Calculator.pdb
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\MainWindow.baml
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\DOM Calculator.g.resources
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\DOM_Calculator.Properties.Resources.resources
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\DOM Calculator.csproj.GenerateResource.cache
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\DOM Calculator.csproj.CoreCompileInputs.cache
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\DOM Calculator.exe
+C:\Homework\DOM Calculator\DOM Calculator\obj\Debug\DOM Calculator.pdb
