@@ -1,34 +1,39 @@
 ﻿<Window x:Class="DOM_Calculator.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DOM_Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="874.13">
-    <Grid Margin="0,0,520,41">
+        Title="MainWindow" Height="354.799" Width="275.444">
+    <Grid Margin="0,0,-6.2,-1.2" Background="DarkSlateGray">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <Grid HorizontalAlignment="Left" Height="272" Margin="69.6,97,0,0" VerticalAlignment="Top" Width="244" RenderTransformOrigin="0.258,0.391">
-            <Button Content="1" HorizontalAlignment="Left" Height="47" Margin="10,60,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
-            <Button Content="2" HorizontalAlignment="Left" Height="47" Margin="65,60,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
-            <Button Content="3" HorizontalAlignment="Left" Height="47" Margin="121,60,0,0" VerticalAlignment="Top" Width="49" Click="Button_Click_1"/>
-            <Button Content="4" HorizontalAlignment="Left" Height="47" Margin="11,112,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
-            <Button Content="5" HorizontalAlignment="Left" Height="47" Margin="65,112,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
-            <Button Content="6" HorizontalAlignment="Left" Height="47" Margin="120,112,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
-            <Button Content="7" HorizontalAlignment="Left" Height="47" Margin="10,164,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
-            <Button Content="8" HorizontalAlignment="Left" Height="47" Margin="65,164,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
-            <Button Content="9" HorizontalAlignment="Left" Height="47" Margin="120,164,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
-            <Button Content="0" HorizontalAlignment="Left" Height="47" Margin="10,216,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
-            <TextBox x:Name="displayText" HorizontalAlignment="Left" Height="47" Margin="10,0,0,217" TextWrapping="Wrap" Text="Enter a Value..." VerticalAlignment="Bottom" Width="160" TextChanged="TextBox_TextChanged"/>
-            <Button Content="+" HorizontalAlignment="Left" Height="47" Margin="178,8,0,0" VerticalAlignment="Top" Width="50" Click="Operator"/>
-            <Button Content="-" HorizontalAlignment="Left" Height="47" Margin="178,60,0,0" VerticalAlignment="Top" Width="50" Click="Operator"/>
-            <Button Content="*" HorizontalAlignment="Left" Height="47" Margin="178,112,0,0" VerticalAlignment="Top" Width="50" Click="Operator"/>
-            <Button Content="/" HorizontalAlignment="Left" Height="47" Margin="178,164,0,0" VerticalAlignment="Top" Width="50" Click="Operator"/>
-            <Button Content="Clear" HorizontalAlignment="Left" Margin="65,216,0,10" Width="105" Click="Clear"/>
-            <Button Content="=" HorizontalAlignment="Left" Height="47" Margin="178,215,0,0" VerticalAlignment="Top" Width="50" Click="Equal"/>
+        <Grid HorizontalAlignment="Left" Height="272" Margin="10,43,0,-36.4" VerticalAlignment="Top" Width="242" RenderTransformOrigin="0.258,0.391">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="79*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="1" Background="white" HorizontalAlignment="Left" Height="47" Margin="10,60,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
+            <Button Content="2" Background="white" HorizontalAlignment="Left" Height="47" Margin="65,60,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+            <Button Content="3" Background="white" HorizontalAlignment="Left" Height="47" Margin="34.807,60,0,0" VerticalAlignment="Top" Width="49" Click="Button_Click_1" Grid.Column="1"/>
+            <Button Content="4" Background="white" HorizontalAlignment="Left" Height="47" Margin="10,112,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
+            <Button Content="5" Background="white" HorizontalAlignment="Left" Height="47" Margin="65,112,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+            <Button Content="6" Background="white" HorizontalAlignment="Left" Height="47" Margin="33.807,112,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1" Grid.Column="1"/>
+            <Button Content="7" Background="white" HorizontalAlignment="Left" Height="47" Margin="10,164,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
+            <Button Content="8" Background="white" HorizontalAlignment="Left" Height="47" Margin="65,164,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+            <Button Content="9" Background="white" HorizontalAlignment="Left" Height="47" Margin="33.807,164,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1" Grid.Column="1"/>
+            <Button Content="0" Background="white" HorizontalAlignment="Left" Height="47" Margin="33.4,215,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1" Grid.Column="1"/>
+            <TextBox x:Name="displayText" HorizontalAlignment="Left" Height="47" Margin="10,0,0,217" TextWrapping="Wrap" Text="Enter a Value..." VerticalAlignment="Bottom" Width="160" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
+            <Button Content="+" Background="IndianRed" HorizontalAlignment="Left" Height="47" Margin="91.807,8,0,0" VerticalAlignment="Top" Width="50" Click="Operator" Grid.Column="1"/>
+            <Button Content="-" Background="IndianRed" HorizontalAlignment="Left" Height="47" Margin="91.807,60,0,0" VerticalAlignment="Top" Width="50" Click="Operator" Grid.Column="1"/>
+            <Button Content="*" Background="IndianRed" HorizontalAlignment="Left" Height="47" Margin="91.807,112,0,0" VerticalAlignment="Top" Width="50" Click="Operator" Grid.Column="1"/>
+            <Button Content="/" Background="IndianRed" HorizontalAlignment="Left" Height="47" Margin="91.807,164,0,0" VerticalAlignment="Top" Width="50" Click="Operator" Grid.Column="1"/>
+            <Button Content="Clear" HorizontalAlignment="Left" Margin="10,215,0,11" Width="105" Click="Clear" Grid.ColumnSpan="2"/>
+            <Button Content="=" Background="IndianRed" HorizontalAlignment="Left" Height="47" Margin="91.807,215,0,0" VerticalAlignment="Top" Width="50" Click="Equal" Grid.Column="1"/>
         </Grid>
+        <Label Content="Basic Interactive Calculator" FontSize="18" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="41" Margin="7,4,0,0" VerticalAlignment="Top" Width="242"/>
 
     </Grid>
 </Window>
